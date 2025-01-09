@@ -1,0 +1,16 @@
+{
+    "fields": [
+      {
+        "default": 60,
+        "description": "Interval in seconds to process screen data",
+        "name": "interval",
+        "type": "number"
+      },
+      {
+        "default": "daily",
+        "description": "Summary frequency: 'daily' or 'hourly:X'",
+        "name": "summaryFrequency",
+        "type": "string"
+      }
+    ]
+  }
